@@ -1,0 +1,64 @@
+timestamp: 1784013442.0887358
+pattern:
+- 10
+- 7
+square_size: 24.0
+rvec_board_to_camera:
+- 0.2725059414444206
+- -0.20126602936516086
+- 3.0921602054517408
+tvec_board_to_camera:
+- 421.2075760439669
+- 73.86057664345364
+- 1317.7109344385626
+rotation_matrix_board_to_camera:
+- - -0.9841765172214252
+  - -0.04207467913906669
+  - 0.17212293375738852
+- - 0.019407538529059718
+  - -0.9911510163910355
+  - -0.1313126427853013
+- - 0.17612475804993694
+  - -0.12589433697494762
+  - 0.976284121308694
+camera_position_board:
+- 181.02763372349548
+- 256.8215036401625
+- -1349.260917960038
+source_image: data/video_pose_experiment_5/frames/calib_004.jpg
+source_calibration: data/calibration.yaml
+image_space: globally_undistorted
+undistorted_image: data/video_pose_experiment_5/undistorted/calib_004_undistorted.jpg
+visualization_image: data/video_pose_experiment_5/visualizations/calib_004_pose.jpg
+camera_matrix_used:
+- - 1421.5434457484635
+  - 0.0
+  - 628.1336510914844
+- - 0.0
+  - 1421.5434457484635
+  - 442.4134970922314
+- - 0.0
+  - 0.0
+  - 1.0
+dist_coeffs_used:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+invalid_output_ratio: 0.0
+pose_solver: IPPE 双解选择 + LM 精化
+reprojection:
+  mean_reprojection_error_px: 0.2673737538484232
+  p95_reprojection_error_px: 0.5817116238265128
+  max_reprojection_error_px: 0.8593494593210811
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7777296703242353
+h_orientation:
+  detected: true
+  corners_reversed: false
+  selected_score: 0.8034463435135892
+  alternative_score: 0.5172518243150214
+  confidence_margin: 0.28619451919856786
+  selected_valid_ratio: 1.0
+h_usage: H 外形用于消除棋盘格 180 度方向歧义；毫米位姿由 70 个棋盘格角点计算。

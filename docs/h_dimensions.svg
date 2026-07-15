@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M 8 0 L 0 4 L 8 8 z" fill="#222"/>
+    </marker>
+    <style>
+      .dim { stroke:#222; stroke-width:1.6; fill:none; marker-start:url(#arrow); marker-end:url(#arrow); }
+      .ext { stroke:#555; stroke-width:1.2; fill:none; }
+      .label { font-family:Arial, sans-serif; font-size:17px; fill:#222; text-anchor:middle; dominant-baseline:middle; }
+      .vertical { writing-mode:tb; glyph-orientation-vertical:0; }
+    </style>
+  </defs>
+
+  <!-- 实际项目 H 标志：外框 25 mm x 25 mm。 -->
+  <rect x="170" y="170" width="560" height="560" fill="#202326" stroke="#111" stroke-width="2"/>
+  <path d="M243.5 243.5 H355.5 V376.5 H656.5 V656.5 H543.5 V523.5 H355.5 V656.5 H243.5 Z" fill="#fff"/>
+
+  <!-- 上侧尺寸 -->
+  <path class="ext" d="M170 170 V92 M243.5 243.5 V74 M355.5 243.5 V56 M656.5 376.5 V74 M730 170 V92"/>
+  <path class="dim" d="M170 92 H730"/>
+  <text class="label" x="450" y="78">25</text>
+  <path class="dim" d="M170 120 H243.5"/>
+  <text class="label" x="206.75" y="106">3.281</text>
+  <path class="dim" d="M243.5 120 H355.5"/>
+  <text class="label" x="299.5" y="106">5</text>
+  <path class="dim" d="M355.5 120 H656.5"/>
+  <text class="label" x="506" y="106">13.438</text>
+  <path class="dim" d="M656.5 120 H730"/>
+  <text class="label" x="693.25" y="106">3.281</text>
+
+  <!-- 下侧尺寸 -->
+  <path class="ext" d="M170 730 V808 M243.5 656.5 V826 M355.5 656.5 V844 M543.5 656.5 V826 M656.5 656.5 V826 M730 730 V808"/>
+  <path class="dim" d="M170 808 H730"/>
+  <text class="label" x="450" y="824">25</text>
+  <path class="dim" d="M170 780 H243.5"/>
+  <text class="label" x="206.75" y="766">3.281</text>
+  <path class="dim" d="M243.5 780 H355.5"/>
+  <text class="label" x="299.5" y="766">5</text>
+  <path class="dim" d="M355.5 780 H543.5"/>
+  <text class="label" x="449.5" y="766">8.438</text>
+  <path class="dim" d="M543.5 780 H656.5"/>
+  <text class="label" x="600" y="766">5</text>
+  <path class="dim" d="M656.5 780 H730"/>
+  <text class="label" x="693.25" y="766">3.281</text>
+
+  <!-- 左侧尺寸 -->
+  <path class="ext" d="M170 170 H92 M243.5 243.5 H74 M243.5 656.5 H56 M170 730 H92"/>
+  <path class="dim" d="M92 170 V730"/>
+  <text class="label vertical" x="78" y="450">25</text>
+  <path class="dim" d="M120 170 V243.5"/>
+  <text class="label vertical" x="136" y="206.75">3.281</text>
+  <path class="dim" d="M120 243.5 V656.5"/>
+  <text class="label vertical" x="136" y="450">18.438</text>
+  <path class="dim" d="M120 656.5 V730"/>
+  <text class="label vertical" x="136" y="693.25">3.281</text>
+
+  <!-- 右侧尺寸 -->
+  <path class="ext" d="M730 170 H808 M656.5 243.5 H826 M656.5 376.5 H844 M656.5 523.5 H844 M656.5 656.5 H826 M730 730 H808"/>
+  <path class="dim" d="M808 170 V730"/>
+  <text class="label vertical" x="824" y="450">25</text>
+  <path class="dim" d="M780 170 V243.5"/>
+  <text class="label vertical" x="766" y="206.75">3.281</text>
+  <path class="dim" d="M780 243.5 V376.5"/>
+  <text class="label vertical" x="766" y="310">5.938</text>
+  <path class="dim" d="M780 376.5 V523.5"/>
+  <text class="label vertical" x="766" y="450">6.563</text>
+  <path class="dim" d="M780 523.5 V656.5"/>
+  <text class="label vertical" x="766" y="590">5.938</text>
+  <path class="dim" d="M780 656.5 V730"/>
+  <text class="label vertical" x="766" y="693.25">3.281</text>
+
+  <text class="label" x="450" y="28">单位：mm</text>
+</svg>

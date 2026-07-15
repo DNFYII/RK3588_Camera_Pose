@@ -1,0 +1,98 @@
+pattern:
+- 10
+- 7
+square_size: 24.0
+image_size:
+- 1280
+- 960
+corner_detector: findChessboardCorners+cornerSubPix
+model: pinhole_radial2
+model_constraints:
+- p1=0
+- p2=0
+- k3=0
+rms_reprojection_error: 0.2340977407591664
+camera_matrix:
+- - 1572.4735148108296
+  - 0.0
+  - 631.009383390827
+- - 0.0
+  - 1569.15525913877
+  - 449.1359328903601
+- - 0.0
+  - 0.0
+  - 1.0
+dist_coeffs:
+- -0.9588509071958005
+- 1.240926502937019
+- 0.0
+- 0.0
+- 0.0
+new_camera_matrix:
+- - 1421.5434457484635
+  - 0.0
+  - 628.1336510914844
+- - 0.0
+  - 1421.5434457484635
+  - 442.4134970922314
+- - 0.0
+  - 0.0
+  - 1.0
+undistortion:
+  scope: global_full_frame
+  alpha: 0.0
+  pixel_aspect_policy: square_pixels_fx_equals_fy
+  target_max_invalid_output_ratio: 0.0
+  output_size:
+  - 1280
+  - 960
+  valid_roi_xywh:
+  - 0
+  - 0
+  - 1279
+  - 959
+  invalid_output_ratio: 0.0
+  source_sample_coverage_ratio: 0.895777224824356
+  finite_source_mapping_ratio: 1.0
+used_images:
+- data/calibration_images/calib_000.jpg
+- data/calibration_images/calib_001.jpg
+- data/calibration_images/calib_002.jpg
+- data/calibration_images/calib_003.jpg
+- data/calibration_images/calib_004.jpg
+- data/calibration_images/calib_005.jpg
+- data/calibration_images/calib_006.jpg
+- data/calibration_images/calib_007.jpg
+- data/calibration_images/calib_008.jpg
+- data/calibration_images/calib_009.jpg
+- data/calibration_images/calib_010.jpg
+- data/calibration_images/calib_011.jpg
+- data/calibration_images/calib_012.jpg
+- data/calibration_images/calib_013.jpg
+- data/calibration_images/calib_014.jpg
+- data/calibration_images/calib_015.jpg
+- data/calibration_images/calib_016.jpg
+- data/calibration_images/calib_017.jpg
+- data/calibration_images/calib_018.jpg
+- data/calibration_images/calib_019.jpg
+- data/calibration_images/calib_020.jpg
+- data/calibration_images/calib_021.jpg
+- data/calibration_images/calib_022.jpg
+- data/calibration_images/calib_023.jpg
+- data/calibration_images/calib_024.jpg
+- data/calibration_images/calib_025.jpg
+- data/calibration_images/calib_026.jpg
+- data/calibration_images/calib_027.jpg
+- data/calibration_images/calib_028.jpg
+- data/calibration_images/calib_029.jpg
+- data/calibration_images/calib_030.jpg
+- data/calibration_images/calib_031.jpg
+- data/calibration_images/calib_032.jpg
+- data/calibration_images/calib_033.jpg
+- data/calibration_images/calib_034.jpg
+- data/calibration_images/calib_035.jpg
+- data/calibration_images/calib_036.jpg
+- data/calibration_images/calib_037.jpg
+- data/calibration_images/calib_038.jpg
+- data/calibration_images/calib_039.jpg
+views: 40

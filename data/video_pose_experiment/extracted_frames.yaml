@@ -1,0 +1,31 @@
+video: data/calibration_source.avi
+candidate_count: 41
+selection: full-video diverse selection of 5 frames by checkerboard corner geometry,
+  weighted by sharpness
+minimum_corner_shift_px: 80.0
+frames:
+- file: data/video_pose_experiment_5/frames/calib_000.jpg
+  video_frame: 150
+  time_sec: 5.0
+  sharpness: 1495.448533286154
+  nearest_selected_shift: 229.0286407470703
+- file: data/video_pose_experiment_5/frames/calib_001.jpg
+  video_frame: 450
+  time_sec: 15.0
+  sharpness: 1132.8050374414568
+  nearest_selected_shift: 142.04737854003906
+- file: data/video_pose_experiment_5/frames/calib_002.jpg
+  video_frame: 570
+  time_sec: 19.0
+  sharpness: 958.8185145543279
+  nearest_selected_shift: 147.287841796875
+- file: data/video_pose_experiment_5/frames/calib_003.jpg
+  video_frame: 705
+  time_sec: 23.5
+  sharpness: 1829.274884439867
+  nearest_selected_shift: null
+- file: data/video_pose_experiment_5/frames/calib_004.jpg
+  video_frame: 825
+  time_sec: 27.5
+  sharpness: 1635.5600717302698
+  nearest_selected_shift: 267.4179382324219

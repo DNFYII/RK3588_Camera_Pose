@@ -1,0 +1,33 @@
+# H 标志实际项目尺寸
+unit: mm
+source_drawing_unit: cm
+source_outer_size: 320
+outer_size: 25.0
+scale_mm_per_source_unit: 0.078125
+outer_rectangle:
+  width: 25.0
+  height: 25.0
+white_h_polygon_clockwise_from_top_left:
+  - [3.28125, 3.28125]
+  - [8.28125, 3.28125]
+  - [8.28125, 9.21875]
+  - [21.71875, 9.21875]
+  - [21.71875, 18.90625]
+  - [16.71875, 18.90625]
+  - [16.71875, 12.96875]
+  - [8.28125, 12.96875]
+  - [8.28125, 18.90625]
+  - [3.28125, 18.90625]
+dimensions:
+  border_top: 3.28125
+  border_bottom: 3.28125
+  border_left: 3.28125
+  border_right: 3.28125
+  h_left_stroke: 5.0
+  h_right_stroke: 5.0
+  h_top_height: 5.9375
+  h_crossbar_height: 3.75
+  h_bottom_height: 5.9375
+  h_middle_gap: 8.4375
+  h_total_width: 18.4375
+  h_total_height: 18.4375

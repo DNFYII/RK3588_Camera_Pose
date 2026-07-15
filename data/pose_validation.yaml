@@ -1,0 +1,1009 @@
+summary:
+  image_count: 40
+  corner_success_count: 40
+  pose_success_count: 40
+  h_orientation_success_count: 40
+  mean_reprojection_error_px: 0.18058637727232166
+  max_mean_reprojection_error_px: 0.3216598202101331
+  max_point_reprojection_error_px: 1.1869319450938025
+images:
+- file: data/calibration_images/calib_000.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.914934202583605
+    alternative_score: 0.5074552408403082
+    confidence_margin: 0.4074789617432968
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.11596970418027408
+  p95_reprojection_error_px: 0.2605486350116234
+  max_reprojection_error_px: 0.4347543805025267
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.6680526195108544
+  tvec_board_to_camera_mm:
+  - 198.12757514013322
+  - 44.27852346785473
+  - 1401.3680665363893
+  camera_position_board_mm:
+  - 168.13638764764417
+  - 254.01740287646055
+  - -1382.8423249828736
+- file: data/calibration_images/calib_001.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9098394202758986
+    alternative_score: 0.5113470288156625
+    confidence_margin: 0.3984923914602361
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.10005685300300347
+  p95_reprojection_error_px: 0.21537125914227995
+  max_reprojection_error_px: 0.31320208126259924
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.588235770948212
+  tvec_board_to_camera_mm:
+  - 226.0309280882595
+  - 44.489277791572185
+  - 1393.4933590763897
+  camera_position_board_mm:
+  - 143.89632293986398
+  - 235.66749269001522
+  - -1385.1525905886483
+- file: data/calibration_images/calib_002.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9148045683478754
+    alternative_score: 0.5207966400216772
+    confidence_margin: 0.39400792832619813
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13808814298466218
+  p95_reprojection_error_px: 0.2709524976374317
+  max_reprojection_error_px: 0.36043058095828645
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.44677808341522496
+  tvec_board_to_camera_mm:
+  - 252.87582394823278
+  - 75.09343323255207
+  - 1379.9126127616823
+  camera_position_board_mm:
+  - 112.00865512862423
+  - 199.67112425026247
+  - -1386.12031520638
+- file: data/calibration_images/calib_003.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8649629170397924
+    alternative_score: 0.530180837301478
+    confidence_margin: 0.3347820797383144
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.2693133629324863
+  p95_reprojection_error_px: 0.5461954946295148
+  max_reprojection_error_px: 0.6363982356896509
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5880555184251014
+  tvec_board_to_camera_mm:
+  - 17.40597923838397
+  - -163.8822348813156
+  - 1461.531602701728
+  camera_position_board_mm:
+  - -18.274425233554446
+  - 55.84501519497734
+  - -1469.6198013020507
+- file: data/calibration_images/calib_004.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.977318322358328
+    alternative_score: 0.5213972044430413
+    confidence_margin: 0.4559211179152868
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.2415936893100632
+  p95_reprojection_error_px: 0.4840117607932285
+  max_reprojection_error_px: 0.6203659556471095
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.642237069499986
+  tvec_board_to_camera_mm:
+  - 209.50849188060909
+  - 250.29082824591742
+  - 1414.868217360115
+  camera_position_board_mm:
+  - 233.00382129492394
+  - 201.75518557897544
+  - -1418.9416632560553
+- file: data/calibration_images/calib_005.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9085154413647047
+    alternative_score: 0.5226971767572435
+    confidence_margin: 0.38581826460746127
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.23623264609967579
+  p95_reprojection_error_px: 0.4809318152584994
+  max_reprojection_error_px: 0.6626300422632364
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4397921085339271
+  tvec_board_to_camera_mm:
+  - 420.10844827233706
+  - 114.7943285975196
+  - 1343.258114184326
+  camera_position_board_mm:
+  - 153.01107155841868
+  - 184.14550932411734
+  - -1391.6498305559062
+- file: data/calibration_images/calib_006.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9497460384336306
+    alternative_score: 0.5174287251210328
+    confidence_margin: 0.4323173133125978
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.2771770709611817
+  p95_reprojection_error_px: 0.5458794625221608
+  max_reprojection_error_px: 0.7108259998456274
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.39462692688101125
+  tvec_board_to_camera_mm:
+  - 212.74942830453634
+  - 33.23215120134976
+  - 1416.2870198141443
+  camera_position_board_mm:
+  - 117.13624505910074
+  - 229.93897813536748
+  - -1409.128377415955
+- file: data/calibration_images/calib_007.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9140566152350869
+    alternative_score: 0.5203171183116488
+    confidence_margin: 0.393739496923438
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.23874026263162382
+  p95_reprojection_error_px: 0.4508067278686494
+  max_reprojection_error_px: 0.6540340867298947
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.34487451629839666
+  tvec_board_to_camera_mm:
+  - 46.477332508882704
+  - -77.83220602151376
+  - 1452.3466555229047
+  camera_position_board_mm:
+  - 112.3094785039842
+  - 209.9277274335757
+  - -1435.56460420025
+- file: data/calibration_images/calib_008.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9510031135145258
+    alternative_score: 0.5079632548785128
+    confidence_margin: 0.44303985863601303
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.1476524750963174
+  p95_reprojection_error_px: 0.32144252081013036
+  max_reprojection_error_px: 0.463203683073049
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.8081368234663105
+  tvec_board_to_camera_mm:
+  - 210.1901428631884
+  - 112.79136833773511
+  - 1434.9682076647573
+  camera_position_board_mm:
+  - 261.99928480795853
+  - 216.98547544374003
+  - -1414.3228853919904
+- file: data/calibration_images/calib_009.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9300787844682048
+    alternative_score: 0.5099229129079875
+    confidence_margin: 0.4201558715602173
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.19921050457067133
+  p95_reprojection_error_px: 0.40111587135035354
+  max_reprojection_error_px: 0.5621968413448105
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7228058267026549
+  tvec_board_to_camera_mm:
+  - 277.3172580093082
+  - 132.08558806758904
+  - 1403.9041909942957
+  camera_position_board_mm:
+  - 164.26131241410673
+  - 292.0962085284612
+  - -1397.4965001257087
+- file: data/calibration_images/calib_010.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9241369478961249
+    alternative_score: 0.517255580265217
+    confidence_margin: 0.4068813676309079
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.22230305327236738
+  p95_reprojection_error_px: 0.43632507071865584
+  max_reprojection_error_px: 0.8893335631278912
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.6285553701655082
+  tvec_board_to_camera_mm:
+  - 206.5118135010328
+  - -25.445044517374743
+  - 1413.1825405083048
+  camera_position_board_mm:
+  - 152.11799593472003
+  - 282.6659848142003
+  - -1391.8834464657252
+- file: data/calibration_images/calib_011.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9611501842017128
+    alternative_score: 0.5129519697787371
+    confidence_margin: 0.4481982144229757
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.20203958260104762
+  p95_reprojection_error_px: 0.39846514314333875
+  max_reprojection_error_px: 0.4736905090932725
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4968336410358585
+  tvec_board_to_camera_mm:
+  - 250.3434076414765
+  - 82.59449988406493
+  - 1408.6624857600614
+  camera_position_board_mm:
+  - 151.92546630581336
+  - 234.82845317218283
+  - -1405.559647335139
+- file: data/calibration_images/calib_012.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9466450504512788
+    alternative_score: 0.5070677682320973
+    confidence_margin: 0.43957728221918146
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.1374193405618061
+  p95_reprojection_error_px: 0.27198236001013065
+  max_reprojection_error_px: 0.31946182936620215
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5695311113116033
+  tvec_board_to_camera_mm:
+  - 169.19186437753905
+  - 57.453019984467964
+  - 1431.84033323062
+  camera_position_board_mm:
+  - 163.14419447634072
+  - 244.04299022414514
+  - -1412.7704934185094
+- file: data/calibration_images/calib_013.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9392169169120842
+    alternative_score: 0.509866519884409
+    confidence_margin: 0.4293503970276752
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13623399063658626
+  p95_reprojection_error_px: 0.27995735504037733
+  max_reprojection_error_px: 0.3391026304105933
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5526611225472332
+  tvec_board_to_camera_mm:
+  - 124.95224139479191
+  - 31.567375520260942
+  - 1432.3674975183628
+  camera_position_board_mm:
+  - 147.03369211116188
+  - 249.48828467652578
+  - -1408.6954599796095
+- file: data/calibration_images/calib_014.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9273094028726274
+    alternative_score: 0.5147883452446399
+    confidence_margin: 0.4125210576279875
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13719864758282332
+  p95_reprojection_error_px: 0.3035961397449858
+  max_reprojection_error_px: 0.48500442584363773
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.36332094980180446
+  tvec_board_to_camera_mm:
+  - 124.3458098858984
+  - -35.38869712810369
+  - 1441.5092292439026
+  camera_position_board_mm:
+  - 147.05853974826547
+  - 178.13630006695476
+  - -1428.7422240563617
+- file: data/calibration_images/calib_015.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9387883785225785
+    alternative_score: 0.5102125196394608
+    confidence_margin: 0.42857585888311767
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13618864193985084
+  p95_reprojection_error_px: 0.2517459569121393
+  max_reprojection_error_px: 0.38790124869667325
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4641559149132156
+  tvec_board_to_camera_mm:
+  - 142.46018055789898
+  - 3.603668086865683
+  - 1457.7909822365525
+  camera_position_board_mm:
+  - 164.95945652787753
+  - 219.61563859945053
+  - -1438.7563332069346
+- file: data/calibration_images/calib_016.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9260325723894866
+    alternative_score: 0.5068677915714719
+    confidence_margin: 0.41916478081801467
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.3216598202101331
+  p95_reprojection_error_px: 0.6127063585399175
+  max_reprojection_error_px: 1.1869319450938025
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7961867272258853
+  tvec_board_to_camera_mm:
+  - 69.98770016123115
+  - 98.8048693404678
+  - 1473.6820126328182
+  camera_position_board_mm:
+  - 273.3653589565738
+  - 77.63376374465587
+  - -1451.0836412785245
+- file: data/calibration_images/calib_017.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9418087560343392
+    alternative_score: 0.49637861447448445
+    confidence_margin: 0.4454301415598548
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.26452892471996
+  p95_reprojection_error_px: 0.5493690971188591
+  max_reprojection_error_px: 0.7193232453845072
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7913527765329463
+  tvec_board_to_camera_mm:
+  - 105.71609834319246
+  - 136.36674031634476
+  - 1459.92204817142
+  camera_position_board_mm:
+  - 238.79864098740538
+  - 229.8567602104847
+  - -1432.23086368733
+- file: data/calibration_images/calib_018.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9529474089770757
+    alternative_score: 0.4980448311945806
+    confidence_margin: 0.45490257778249515
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.18899318960037387
+  p95_reprojection_error_px: 0.36638717623552863
+  max_reprojection_error_px: 0.4906850630466099
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7867630286348317
+  tvec_board_to_camera_mm:
+  - 137.73170727305794
+  - 142.6700270762424
+  - 1445.3438972382526
+  camera_position_board_mm:
+  - 244.81099879001758
+  - 215.17621753955635
+  - -1422.0093218312436
+- file: data/calibration_images/calib_019.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9612797847809378
+    alternative_score: 0.5022796145130907
+    confidence_margin: 0.4590001702678471
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.19125936179117367
+  p95_reprojection_error_px: 0.39611074767530824
+  max_reprojection_error_px: 0.4451746438424717
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7296082256492287
+  tvec_board_to_camera_mm:
+  - 184.0054545633234
+  - 163.8705507298907
+  - 1423.7161730383036
+  camera_position_board_mm:
+  - 230.85266223055393
+  - 218.5202988595829
+  - -1409.4804835129112
+- file: data/calibration_images/calib_020.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.912282414980103
+    alternative_score: 0.5133433617471725
+    confidence_margin: 0.39893905323293044
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.12143758559543286
+  p95_reprojection_error_px: 0.23446351124295733
+  max_reprojection_error_px: 0.47121146221173443
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.48571821338507176
+  tvec_board_to_camera_mm:
+  - 93.91922172775433
+  - -71.78352893331983
+  - 1448.8639256245076
+  camera_position_board_mm:
+  - 119.08342188401234
+  - 229.61347353916776
+  - -1430.481443994922
+- file: data/calibration_images/calib_021.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8782566350133918
+    alternative_score: 0.5114514464250843
+    confidence_margin: 0.36680518858830746
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.15181432767110054
+  p95_reprojection_error_px: 0.3058805478493441
+  max_reprojection_error_px: 0.433143092627158
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3875544841134035
+  tvec_board_to_camera_mm:
+  - -14.314667100129292
+  - -19.25101097102796
+  - 1446.049406849552
+  camera_position_board_mm:
+  - 139.09853844631664
+  - 188.18762288357257
+  - -1427.1900410817975
+- file: data/calibration_images/calib_022.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8805626347774946
+    alternative_score: 0.5113165266106443
+    confidence_margin: 0.36924610816685033
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.14234349728526635
+  p95_reprojection_error_px: 0.29402956608185576
+  max_reprojection_error_px: 0.4014088382181838
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3768667984017025
+  tvec_board_to_camera_mm:
+  - 3.580818972172849
+  - -52.66147992550284
+  - 1430.8566339619879
+  camera_position_board_mm:
+  - 140.93174031029466
+  - 176.8988944474847
+  - -1413.8535236727516
+- file: data/calibration_images/calib_023.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8747808299240211
+    alternative_score: 0.5125143641918215
+    confidence_margin: 0.36226646573219956
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.16163068312747444
+  p95_reprojection_error_px: 0.33179528831270994
+  max_reprojection_error_px: 0.38057683185138635
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.34156545770162267
+  tvec_board_to_camera_mm:
+  - 13.049331962426656
+  - -87.54401432599012
+  - 1421.985981293232
+  camera_position_board_mm:
+  - 176.09779591768873
+  - 93.90687035299038
+  - -1410.6911201524204
+- file: data/calibration_images/calib_024.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8789195825659915
+    alternative_score: 0.5067453625632378
+    confidence_margin: 0.3721742200027537
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.15219035444053003
+  p95_reprojection_error_px: 0.32989214055012006
+  max_reprojection_error_px: 0.43709200758768907
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.35638711803506323
+  tvec_board_to_camera_mm:
+  - 62.55797463399902
+  - -128.2165456905196
+  - 1407.3600027913315
+  camera_position_board_mm:
+  - 183.90023949078065
+  - 108.72213165338414
+  - -1398.3473675163514
+- file: data/calibration_images/calib_025.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9219693113228129
+    alternative_score: 0.5075280743102731
+    confidence_margin: 0.41444123701253976
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.10704878856857342
+  p95_reprojection_error_px: 0.20521378601530071
+  max_reprojection_error_px: 0.25663134646540736
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5683193539038012
+  tvec_board_to_camera_mm:
+  - 153.6105041815283
+  - -23.455528998014568
+  - 1415.2899060656828
+  camera_position_board_mm:
+  - 155.55600312448914
+  - 234.68089400236212
+  - -1395.6787147940156
+- file: data/calibration_images/calib_026.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9306475794360884
+    alternative_score: 0.5103102717286567
+    confidence_margin: 0.4203373077074317
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.1424372369423184
+  p95_reprojection_error_px: 0.3019647776644996
+  max_reprojection_error_px: 0.4958208486330865
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5446723326691157
+  tvec_board_to_camera_mm:
+  - 175.03397222990122
+  - 1.3441977412607995
+  - 1411.530142020771
+  camera_position_board_mm:
+  - 169.05949173268408
+  - 230.99245657599403
+  - -1393.2398980058665
+- file: data/calibration_images/calib_027.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9147944871325772
+    alternative_score: 0.5110273744874211
+    confidence_margin: 0.4037671126451561
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13983373428951074
+  p95_reprojection_error_px: 0.267962878638187
+  max_reprojection_error_px: 0.3669252124523776
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3900115096563788
+  tvec_board_to_camera_mm:
+  - 73.69679586506122
+  - -14.40752185735489
+  - 1439.7042832604095
+  camera_position_board_mm:
+  - 143.5679756707363
+  - 191.49434246259662
+  - -1421.6558552659076
+- file: data/calibration_images/calib_028.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9059381725689689
+    alternative_score: 0.5098171022042965
+    confidence_margin: 0.39612107036467237
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.1563296066553619
+  p95_reprojection_error_px: 0.29397187277773557
+  max_reprojection_error_px: 0.4126980160142199
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.43948992702158757
+  tvec_board_to_camera_mm:
+  - 41.92437160838806
+  - -68.72434963301139
+  - 1449.4709680023207
+  camera_position_board_mm:
+  - 158.0912325034745
+  - 203.95297073939068
+  - -1428.585707677679
+- file: data/calibration_images/calib_029.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9289588377723971
+    alternative_score: 0.5060620287773758
+    confidence_margin: 0.42289680899502125
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.12593147152528633
+  p95_reprojection_error_px: 0.24601389821637162
+  max_reprojection_error_px: 0.31989732326639797
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5231480126868201
+  tvec_board_to_camera_mm:
+  - 99.90258944837187
+  - 41.244544046713926
+  - 1446.899636242942
+  camera_position_board_mm:
+  - 194.35766425534646
+  - 189.5264602239195
+  - -1425.3087442278127
+- file: data/calibration_images/calib_030.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9526698444797534
+    alternative_score: 0.5020317997109117
+    confidence_margin: 0.45063804476884173
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.2329639180702847
+  p95_reprojection_error_px: 0.4802299676354752
+  max_reprojection_error_px: 0.600852692760236
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.7717449719651867
+  tvec_board_to_camera_mm:
+  - 143.23583174484784
+  - 172.63296802060782
+  - 1419.7212566444082
+  camera_position_board_mm:
+  - 241.82241316433854
+  - 201.8367628582135
+  - -1402.3947138240055
+- file: data/calibration_images/calib_031.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9441292431964612
+    alternative_score: 0.5087733616257243
+    confidence_margin: 0.4353558815707369
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.21235851205204614
+  p95_reprojection_error_px: 0.44517111200704135
+  max_reprojection_error_px: 0.551119137459304
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.5851246394003236
+  tvec_board_to_camera_mm:
+  - 173.9325459160236
+  - 51.9129908728593
+  - 1402.8688013920582
+  camera_position_board_mm:
+  - 162.48032665752626
+  - 234.66675735649727
+  - -1385.4674371887756
+- file: data/calibration_images/calib_032.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9237117405762276
+    alternative_score: 0.5110205439574149
+    confidence_margin: 0.4126911966188127
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.13354150684584323
+  p95_reprojection_error_px: 0.2664576148187336
+  max_reprojection_error_px: 0.41977870307084447
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4486377491455128
+  tvec_board_to_camera_mm:
+  - 96.53319043096273
+  - -23.277024329125723
+  - 1447.1633682971185
+  camera_position_board_mm:
+  - 139.97712690128608
+  - 222.80244945220062
+  - -1426.5019326029744
+- file: data/calibration_images/calib_033.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9039955470583965
+    alternative_score: 0.5210967545582824
+    confidence_margin: 0.38289879250011405
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.2353503036839591
+  p95_reprojection_error_px: 0.5044014096998397
+  max_reprojection_error_px: 0.802072133916103
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3646484122169208
+  tvec_board_to_camera_mm:
+  - 69.33390204266496
+  - -97.37560524027262
+  - 1445.8649333499618
+  camera_position_board_mm:
+  - 113.38495516700371
+  - 215.1795564735935
+  - -1430.2643861807733
+- file: data/calibration_images/calib_034.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.880880438253863
+    alternative_score: 0.5188336038506745
+    confidence_margin: 0.3620468344031885
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.20376798094092324
+  p95_reprojection_error_px: 0.42786406648611375
+  max_reprojection_error_px: 0.8260637184767441
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3166125982874784
+  tvec_board_to_camera_mm:
+  - 37.802585096612894
+  - -149.34283324601728
+  - 1440.8510767825385
+  camera_position_board_mm:
+  - 117.39477533391289
+  - 156.1092176988917
+  - -1435.838612665461
+- file: data/calibration_images/calib_035.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.9418509022301775
+    alternative_score: 0.5151086187183536
+    confidence_margin: 0.42674228351182397
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.1560948646481698
+  p95_reprojection_error_px: 0.3129855063126742
+  max_reprojection_error_px: 0.46323918099848416
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.29290126586413856
+  tvec_board_to_camera_mm:
+  - 203.7234749281554
+  - 7.015660661255407
+  - 1427.4440685633551
+  camera_position_board_mm:
+  - 135.50742724706728
+  - 153.34794426689234
+  - -1427.3300906791044
+- file: data/calibration_images/calib_036.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8822638929582967
+    alternative_score: 0.5117060602666069
+    confidence_margin: 0.37055783269168974
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.12380345933478486
+  p95_reprojection_error_px: 0.2448023544511938
+  max_reprojection_error_px: 0.5003667559597714
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4136986083139978
+  tvec_board_to_camera_mm:
+  - 117.9597931968159
+  - -148.43876270862964
+  - 1431.7448769399973
+  camera_position_board_mm:
+  - 151.23307767537887
+  - 188.34831449094142
+  - -1423.9014854879138
+- file: data/calibration_images/calib_037.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.917959550343555
+    alternative_score: 0.5130499627143923
+    confidence_margin: 0.40490958762916274
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.176961744332629
+  p95_reprojection_error_px: 0.3946910766242465
+  max_reprojection_error_px: 0.5205479694443294
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.4229472118788218
+  tvec_board_to_camera_mm:
+  - 133.86533237255054
+  - -71.04002291818664
+  - 1444.901153982648
+  camera_position_board_mm:
+  - 175.05961883272937
+  - 182.77958613614223
+  - -1430.6123547606662
+- file: data/calibration_images/calib_038.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.92538357505946
+    alternative_score: 0.5215684165232358
+    confidence_margin: 0.4038151585362242
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.17710721706756655
+  p95_reprojection_error_px: 0.34576041054486806
+  max_reprojection_error_px: 0.44422655772194825
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.3715072166947334
+  tvec_board_to_camera_mm:
+  - 233.86814600977664
+  - 23.86365725673478
+  - 1382.1359294552683
+  camera_position_board_mm:
+  - 165.27381711311764
+  - 133.25563160107288
+  - -1385.817813917239
+- file: data/calibration_images/calib_039.jpg
+  readable: true
+  corners_found: true
+  pose_ok: true
+  h_detected: true
+  h_orientation:
+    detected: true
+    corners_reversed: false
+    selected_score: 0.8037444265471438
+    alternative_score: 0.5178050525620562
+    confidence_margin: 0.2859393739850876
+    selected_valid_ratio: 1.0
+  mean_reprojection_error_px: 0.268649033129723
+  p95_reprojection_error_px: 0.5862758832474378
+  max_reprojection_error_px: 0.8695665703948237
+  ippe_candidate_count: 2
+  ippe_second_solution_mean_error_px: 0.774221690793565
+  tvec_board_to_camera_mm:
+  - 421.2073458023633
+  - 73.86998551939821
+  - 1317.6762867223035
+  camera_position_board_mm:
+  - 180.80239801492237
+  - 255.8501317671506
+  - -1349.4422560656574

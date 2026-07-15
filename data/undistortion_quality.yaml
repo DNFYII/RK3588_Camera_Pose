@@ -1,0 +1,39 @@
+source_image: data/calibration_images/calib_015.jpg
+output_image: data/undistorted_full.jpg
+calibration_file: data/calibration.yaml
+scope: global_full_frame
+model: pinhole_radial2
+image_size:
+- 1280
+- 960
+new_camera_matrix:
+- - 1421.5434457484635
+  - 0.0
+  - 628.1336510914844
+- - 0.0
+  - 1421.5434457484635
+  - 442.4134970922314
+- - 0.0
+  - 0.0
+  - 1.0
+remaining_dist_coeffs:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+invalid_output_ratio: 0.0
+raw_chessboard_found: true
+corrected_chessboard_found: true
+raw_chessboard_line_residual:
+  mean_px: 0.07823179489667607
+  p95_px: 0.22954132189792995
+  max_px: 0.48560027834832536
+  mean_square_fraction: 0.0030306733242234166
+  p95_square_fraction: 0.008892353320051385
+corrected_chessboard_line_residual:
+  mean_px: 0.03484469890894994
+  p95_px: 0.07209626336544198
+  max_px: 0.2016157958939366
+  mean_square_fraction: 0.001482488063521078
+  p95_square_fraction: 0.003067377627312109

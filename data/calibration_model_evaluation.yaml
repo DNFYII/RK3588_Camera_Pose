@@ -1,0 +1,274 @@
+selection_policy:
+  cross_validation_folds: 3
+  maximum_cv_gap_from_best_px: 0.005
+  minimum_source_coverage_ratio: 0.895
+  maximum_invalid_output_ratio: 0.0
+  tie_breaker: 在验证误差相当且全局映射合格时，选择参数更少的模型
+models:
+  pinhole_radial2:
+    parameter_count: 2
+    full_fit_rms_px: 0.2340977407591664
+    camera_matrix:
+    - - 1572.4735148108296
+      - 0.0
+      - 631.009383390827
+    - - 0.0
+      - 1569.15525913877
+      - 449.1359328903601
+    - - 0.0
+      - 0.0
+      - 1.0
+    dist_coeffs:
+    - -0.9588509071958005
+    - 1.240926502937019
+    - 0.0
+    - 0.0
+    - 0.0
+    new_camera_matrix:
+    - - 1421.5434457484635
+      - 0.0
+      - 628.1336510914844
+    - - 0.0
+      - 1421.5434457484635
+      - 442.4134970922314
+    - - 0.0
+      - 0.0
+      - 1.0
+    valid_roi_xywh:
+    - 0
+    - 0
+    - 1279
+    - 959
+    cross_validation:
+      folds:
+      - fold: 0
+        train_rms_px: 0.23200728311217786
+        test_mean_px: 0.20880673857894183
+        test_p95_px: 0.49232840180474313
+        test_max_px: 1.1892473367908887
+      - fold: 1
+        train_rms_px: 0.23024184262417835
+        test_mean_px: 0.21618289130712479
+        test_p95_px: 0.4691322493884956
+        test_max_px: 1.1916253518007285
+      - fold: 2
+        train_rms_px: 0.2437251713332691
+        test_mean_px: 0.17935783466120095
+        test_p95_px: 0.4128373734997131
+        test_max_px: 0.7950389748548932
+      mean_px: 0.20144915484908918
+      p95_px: 0.4580993415643173
+      max_px: 1.0586372211488368
+    mapping:
+      invalid_output_ratio: 0.0
+      source_sample_coverage_ratio: 0.895777224824356
+      finite_source_mapping_ratio: 1.0
+    corrected_chessboard_line_residual:
+      mean_px: 0.057495677151015404
+      p95_px: 0.16825745453760682
+      max_px: 0.7138478887588462
+      mean_square_fraction: 0.0023913031703096375
+      p95_square_fraction: 0.006977642441722053
+  pinhole_radial3:
+    parameter_count: 3
+    full_fit_rms_px: 0.2336434338549303
+    camera_matrix:
+    - - 1558.7707750305747
+      - 0.0
+      - 629.6451293089887
+    - - 0.0
+      - 1555.7018316443211
+      - 448.660238240716
+    - - 0.0
+      - 0.0
+      - 1.0
+    dist_coeffs:
+    - -0.9922864951799344
+    - 2.431642933462614
+    - 0.0
+    - 0.0
+    - -7.182173369744598
+    new_camera_matrix:
+    - - 1554.0811900016852
+      - 0.0
+      - 629.1532032691975
+    - - 0.0
+      - 1554.0811900016852
+      - 448.19283426209586
+    - - 0.0
+      - 0.0
+      - 1.0
+    valid_roi_xywh:
+    - 0
+    - 0
+    - 1279
+    - 959
+    cross_validation:
+      folds:
+      - fold: 0
+        train_rms_px: 0.23189943977100577
+        test_mean_px: 0.2093133159066028
+        test_p95_px: 0.4975565994297176
+        test_max_px: 1.174553056046251
+      - fold: 1
+        train_rms_px: 0.23022278794987994
+        test_mean_px: 0.21587487135114072
+        test_p95_px: 0.4706209352918223
+        test_max_px: 1.1915105194337254
+      - fold: 2
+        train_rms_px: 0.24257381109035459
+        test_mean_px: 0.18149206317263333
+        test_p95_px: 0.4111098817606492
+        test_max_px: 0.8003486083319856
+      mean_px: 0.20222675014345895
+      p95_px: 0.4597624721607297
+      max_px: 1.0554707279373206
+    mapping:
+      invalid_output_ratio: 0.0
+      source_sample_coverage_ratio: 0.7986387587822014
+      finite_source_mapping_ratio: 1.0
+    corrected_chessboard_line_residual:
+      mean_px: 0.06335891610147014
+      p95_px: 0.18189471984810798
+      max_px: 0.7842374618063559
+      mean_square_fraction: 0.002388424439416307
+      p95_square_fraction: 0.006876098219646949
+  pinhole_tangent3:
+    parameter_count: 5
+    full_fit_rms_px: 0.1979391892514946
+    camera_matrix:
+    - - 1370.2027467944085
+      - 0.0
+      - 708.0491382676297
+    - - 0.0
+      - 1372.0152459405194
+      - 394.54647441478596
+    - - 0.0
+      - 0.0
+      - 1.0
+    dist_coeffs:
+    - -0.7534075367414942
+    - 0.43997646894841996
+    - 0.018592602752953054
+    - -0.0266745138912166
+    - 1.9558134053408416
+    new_camera_matrix:
+    - - 1307.0279524769169
+      - 0.0
+      - 669.1988721372909
+    - - 0.0
+      - 1307.0279524769169
+      - 410.5331287228146
+    - - 0.0
+      - 0.0
+      - 1.0
+    valid_roi_xywh:
+    - 0
+    - 0
+    - 1279
+    - 959
+    cross_validation:
+      folds:
+      - fold: 0
+        train_rms_px: 0.1967429035852692
+        test_mean_px: 0.16586037722409872
+        test_p95_px: 0.3984097222457986
+        test_max_px: 0.9217600000770242
+      - fold: 1
+        train_rms_px: 0.19001769180268382
+        test_mean_px: 0.17073927636980607
+        test_p95_px: 0.42005417382573895
+        test_max_px: 1.1691698564817277
+      - fold: 2
+        train_rms_px: 0.2024786216662852
+        test_mean_px: 0.16260200352221155
+        test_p95_px: 0.37743244309504165
+        test_max_px: 0.8284517521613254
+      mean_px: 0.16640055237203877
+      p95_px: 0.39863211305552637
+      max_px: 0.9731272029066925
+    mapping:
+      invalid_output_ratio: 0.0
+      source_sample_coverage_ratio: 0.8637587822014051
+      finite_source_mapping_ratio: 1.0
+    corrected_chessboard_line_residual:
+      mean_px: 0.0585135177284563
+      p95_px: 0.16728426059215598
+      max_px: 0.7124601988221313
+      mean_square_fraction: 0.002313834313174721
+      p95_square_fraction: 0.006580816676959881
+  fisheye:
+    parameter_count: 4
+    full_fit_rms_px: 0.2335994090403157
+    camera_matrix:
+    - - 1585.2291270718217
+      - 0.0
+      - 628.9777430276416
+    - - 0.0
+      - 1582.0231183657631
+      - 448.3067346532064
+    - - 0.0
+      - 0.0
+      - 1.0
+    dist_coeffs:
+    - -0.6857430520078804
+    - 1.7023884835728877
+    - -4.147367467288407
+    - -18.64847167997331
+    new_camera_matrix:
+    - - 0.002554821233742761
+      - 0.0
+      - 1279.99998010569
+    - - 0.0
+      - 0.0025496542966874647
+      - 1117.4135231004864
+    - - 0.0
+      - 0.0
+      - 1.0
+    valid_roi_xywh:
+    - 0
+    - 0
+    - 1280
+    - 960
+    cross_validation:
+      folds:
+      - fold: 0
+        train_rms_px: 0.226925619433313
+        test_mean_px: 0.20901760128835004
+        test_p95_px: 0.5170137147604181
+        test_max_px: 1.2618589934153137
+      - fold: 1
+        train_rms_px: 0.22618052763391133
+        test_mean_px: 0.20861923488282708
+        test_p95_px: 0.4671119268745789
+        test_max_px: 1.1711138244749488
+      - fold: 2
+        train_rms_px: 0.24255164919265143
+        test_mean_px: 0.18189383755225264
+        test_p95_px: 0.40940634923794467
+        test_max_px: 0.8121245556604982
+      mean_px: 0.19984355790780992
+      p95_px: 0.4645106636243139
+      max_px: 1.0816991245169203
+    mapping:
+      invalid_output_ratio: 1.0
+      source_sample_coverage_ratio: 0.0
+      finite_source_mapping_ratio: 1.0
+    corrected_chessboard_line_residual:
+      mean_px: 2.4858922697943727e-05
+      p95_px: 6.56036198947071e-05
+      max_px: 8.098177795708625e-05
+      mean_square_fraction: .inf
+      p95_square_fraction: .nan
+selected_model: pinhole_radial2
+eligible_models:
+- pinhole_radial2
+stable_models:
+- pinhole_radial2
+selection_reason: 验证误差窗口内无全图合格模型，选择全图合格模型中验证误差最低者
+raw_chessboard_line_residual:
+  mean_px: 0.15373623379066856
+  p95_px: 0.5157911478236328
+  max_px: 1.502436805355805
+  mean_square_fraction: 0.005913820460484158
+  p95_square_fraction: 0.019801569293003227
