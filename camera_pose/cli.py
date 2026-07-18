@@ -34,6 +34,7 @@ from .chessboard import (
     solve_planar_pose,
 )
 from .io import append_markdown_log, ensure_dir, read_yaml, write_image, write_yaml
+from .residual_impact import run_residual_pose_impact_experiment
 
 DATA_DIR = Path("data")
 DEFAULT_IMAGE_DIR = DATA_DIR / "calibration_images"
@@ -1396,6 +1397,52 @@ def build_parser() -> argparse.ArgumentParser:
         default=DATA_DIR / "undistorted_full.jpg",
     )
     pose_image.set_defaults(func=cmd_pose_image)
+
+    residual_impact = subparsers.add_parser(
+        "residual-impact",
+        help="verify how residual undistortion error affects chessboard pose",
+    )
+    residual_impact.add_argument("--calibration", type=Path, default=DEFAULT_CALIBRATION)
+    residual_impact.add_argument(
+        "--image-dir",
+        action="append",
+        type=Path,
+        default=[DATA_DIR / "video_pose_experiment" / "frames"],
+        help="extra validation image directory; can be passed multiple times",
+    )
+    residual_impact.add_argument(
+        "--output-dir",
+        type=Path,
+        default=DATA_DIR / "residual_pose_impact_experiment",
+    )
+    residual_impact.add_argument(
+        "--report",
+        type=Path,
+        default=Path("docs") / "residual_pose_impact_report.md",
+    )
+    residual_impact.add_argument(
+        "--representative-quality",
+        type=Path,
+        default=DATA_DIR / "undistortion_quality.yaml",
+    )
+
+    def cmd_residual_impact(args: argparse.Namespace) -> int:
+        summary = run_residual_pose_impact_experiment(
+            args.calibration,
+            args.image_dir,
+            args.output_dir,
+            args.report,
+            args.representative_quality,
+        )
+        print(f"wrote {args.output_dir / 'residual_pose_impact.yaml'}")
+        print(f"wrote {args.report}")
+        print(
+            "representative mean residual pose impact: "
+            f"{summary['sensitivity']['representative_mean_outward']['translation_delta_norm_mm']['max']:.4f} mm max"
+        )
+        return 0
+
+    residual_impact.set_defaults(func=cmd_residual_impact)
     return parser
 
 
